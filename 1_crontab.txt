@@ -1,0 +1,5 @@
+# minutes | hour | date-of-the-month | day-of-the-week   command
+# mm  hh   dom  dow   command
+
+* * * * * /opt/scripts/monitor_httpd_process.sh &>> /var/log/monitor_httpd.log
+
